@@ -76,6 +76,6 @@ RocketseatNlwHeatImpulseElixir.Tags.Count.call
 #   "and" => 1,
 #   "their" => 1,
 #   "number" => 1,
-#   "occurrances" => 1
+#   "occurrences" => 1
 # }
 ```
