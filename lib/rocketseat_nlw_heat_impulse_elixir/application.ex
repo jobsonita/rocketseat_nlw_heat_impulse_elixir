@@ -15,9 +15,10 @@ defmodule RocketseatNlwHeatImpulseElixir.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: RocketseatNlwHeatImpulseElixir.PubSub},
       # Start the Endpoint (http/https)
-      RocketseatNlwHeatImpulseElixirWeb.Endpoint
+      RocketseatNlwHeatImpulseElixirWeb.Endpoint,
       # Start a worker by calling: RocketseatNlwHeatImpulseElixir.Worker.start_link(arg)
       # {RocketseatNlwHeatImpulseElixir.Worker, arg}
+      RocketseatNlwHeatImpulseElixir.Scheduler
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

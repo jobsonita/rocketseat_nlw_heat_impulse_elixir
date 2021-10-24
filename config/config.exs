@@ -13,9 +13,19 @@ config :rocketseat_nlw_heat_impulse_elixir,
 # Configures the endpoint
 config :rocketseat_nlw_heat_impulse_elixir, RocketseatNlwHeatImpulseElixirWeb.Endpoint,
   url: [host: "localhost"],
-  render_errors: [view: RocketseatNlwHeatImpulseElixirWeb.ErrorView, accepts: ~w(json), layout: false],
+  render_errors: [
+    view: RocketseatNlwHeatImpulseElixirWeb.ErrorView,
+    accepts: ~w(json),
+    layout: false
+  ],
   pubsub_server: RocketseatNlwHeatImpulseElixir.PubSub,
   live_view: [signing_salt: "Gcwl9rlq"]
+
+# Configures the scheduler to run Tags.Count daily at midnight
+config :rocketseat_nlw_heat_impulse_elixir, RocketseatNlwHeatImpulseElixir.Scheduler,
+  jobs: [
+    {"@daily", {RocketseatNlwHeatImpulseElixir.Tags.Count, :call, []}}
+  ]
 
 # Configures the mailer
 #
@@ -24,7 +34,8 @@ config :rocketseat_nlw_heat_impulse_elixir, RocketseatNlwHeatImpulseElixirWeb.En
 #
 # For production it's recommended to configure a different adapter
 # at the `config/runtime.exs`.
-config :rocketseat_nlw_heat_impulse_elixir, RocketseatNlwHeatImpulseElixir.Mailer, adapter: Swoosh.Adapters.Local
+config :rocketseat_nlw_heat_impulse_elixir, RocketseatNlwHeatImpulseElixir.Mailer,
+  adapter: Swoosh.Adapters.Local
 
 # Swoosh API client is needed for adapters other than SMTP.
 config :swoosh, :api_client, false
