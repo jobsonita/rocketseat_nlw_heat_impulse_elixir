@@ -1,22 +1,46 @@
-# NLW-Heat - Impulse Track - Elixir Backend
+![License](https://img.shields.io/github/license/jobsonita/rocketseat-nlw-heat-impulse-web?color=blue)
+![Erlang version](https://img.shields.io/badge/erlang-OTP_22-brightgreen)
+![Elixir version](https://img.shields.io/badge/elixir-v1.12.3-brightgreen)
+![Phoenix version](https://img.shields.io/badge/phoenix-~>_1.6.2-blue)
+![Quantum version](https://img.shields.io/badge/quantum-~>_3.0-blue)
 
-NLW-Heat backend project in Elixir with Phoenix and Quantum
+# :rocket::seat: NLW-Heat - Impulse Track - Elixir Backend
 
-## API call example
+[NLW-Heat](https://nextlevelweek.com/inscricao/7) backend project in Elixir with Phoenix and Quantum
+
+## :hammer: Status
+
+> :white_check_mark: Finished :lock:
+
+## :bookmark: Content Table
+<!--ts-->
+  * [App Interface](#newspaper-api-call-example)
+  * [Technologies](#books-technologies)
+  * [Install and Run](#calling-installing-and-running-this-project)
+  * [Author and License](#memo-author-and-license)
+<!--te-->
+
+## :newspaper: API call example
 
 <p align="center"><img alt="API call example" title="NLW-Heat Impulse API Demonstration" src="./.github/api_demonstration.png" width="720px"/></p>
 
-## Technologies
+## :books: Technologies
 
-- Elixir
-- Phoenix
-- Quantum
-- Ecto
-- Insomnia.REST
+- [Elixir](https://elixir-lang.org/)
+- [Phoenix](https://www.phoenixframework.org/)
+- [Quantum](https://hexdocs.pm/quantum/readme.html)
+- [Ecto](https://hexdocs.pm/ecto/Ecto.html)
+- [Insomnia.REST](https://insomnia.rest/)
 
-## Instructions for clonning and running this project
+## :calling: Installing and running this project
 
-Execute the following commands to get the project up and running:
+### :wrench: Prerequisites
+
+Before starting, make sure you have [Git](https://git-scm.com/) and [Elixir](https://elixir-lang.org/install.html) (version 1.12 or higher) installed.
+
+### :inbox_tray: Install and run
+
+Clone the project using Git and install its dependencies through Mix:
 
 ```bash
 git clone https://github.com/jobsonita/rocketseat_nlw_heat_impulse_elixir.git
@@ -44,6 +68,8 @@ Finally, run the server:
 ```bash
 mix phx.server
 ```
+
+### :mag: Testing
 
 Open Insomnia and import the [Insomnia requests file](tools/Insomnia_Requests_2021-10-23.json). Execute the available request to send messages to the api.
 
@@ -79,3 +105,10 @@ RocketseatNlwHeatImpulseElixir.Tags.Count.call
 #   "occurrences" => 1
 # }
 ```
+
+## :memo: Author and License
+
+[![Author: jobsonita](https://avatars.githubusercontent.com/u/1463583?s=48&v=4)](https://github.com/jobsonita/jobsonita) | [Jobson Gilberto](https://github.com/jobsonita/jobsonita)
+-|-
+
+[![License](https://img.shields.io/github/license/jobsonita/rocketseat-nlw-heat-impulse-elixir)](LICENSE)
