@@ -111,4 +111,4 @@ RocketseatNlwHeatImpulseElixir.Tags.Count.call
 [![Author: jobsonita](https://avatars.githubusercontent.com/u/1463583?s=48&v=4)](https://github.com/jobsonita/jobsonita) | [Jobson Gilberto](https://github.com/jobsonita/jobsonita)
 -|-
 
-[![License](https://img.shields.io/github/license/jobsonita/rocketseat-nlw-heat-impulse-elixir)](LICENSE)
+[![License](https://img.shields.io/github/license/jobsonita/rocketseat_nlw_heat_impulse_elixir)](LICENSE)
