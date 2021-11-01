@@ -1,4 +1,4 @@
-![License](https://img.shields.io/github/license/jobsonita/rocketseat-nlw-heat-impulse-web?color=blue)
+![License](https://img.shields.io/github/license/jobsonita/rocketseat_nlw_heat_impulse_elixir?color=blue)
 ![Erlang version](https://img.shields.io/badge/erlang-OTP_22-brightgreen)
 ![Elixir version](https://img.shields.io/badge/elixir-v1.12.3-brightgreen)
 ![Phoenix version](https://img.shields.io/badge/phoenix-~>_1.6.2-blue)
